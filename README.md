@@ -31,6 +31,7 @@ python3 -m http.server 8000
 - [5. Submit it](#5-submit-it)
 - [6. Check it, fix it, resubmit](#6-check-it-fix-it-resubmit)
 - [7. Claim your reward](#7-claim-your-reward)
+- [Tips from the board](#tips-from-the-board)
 - [The interactive demo in this repo](#the-interactive-demo-in-this-repo)
 - [Earn with your own referral link](#earn-with-your-own-referral-link)
 - [Questions](#questions)
@@ -146,6 +147,16 @@ node cli/makefun.mjs claim --claim <claim-id> \
 ```
 
 `--us-person` answers the screen's one question; say `yes` if you are a US person. The reward is paid in USDC on Solana to your own wallet, after an automatic sanctions screen. A tax form is asked for only where US law requires one.
+
+## Tips from the board
+
+A few things that separate entries that place from entries that don't:
+
+- **Read the scoring before you build.** Every bounty publishes how it is scored and how ties break — an exact tie goes to the earlier entry, so submitting early is a real edge, not just comfort.
+- **Grade locally where you can.** A bounty's kit often scores your entry on practice data in the same sandbox the server uses. A rejected entry still counts toward the day's submission limit, so the cheap place to catch a miss is your own machine.
+- **Keep the whole build in one session.** The transcripts must show your agent writing the code. One continuous session, from the first file to the final check, bundles cleanly; a build scattered across sessions is harder to prove.
+- **Let the agent write, don't paste.** Code pasted in from elsewhere counts against the authored share — at least 30% of the counted lines must be authored in your own sessions, and the README needs at least one line your agent wrote.
+- **Submit, then keep improving.** Your latest entry before the deadline is the one that counts. A first submission that passes the checks, followed by a better one, beats a perfect entry that never gets sent.
 
 ## The interactive demo in this repo
 
